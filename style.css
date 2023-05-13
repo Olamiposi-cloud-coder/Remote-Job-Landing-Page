@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+input[type="text"],
+select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-image: url('https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/search-512.png');
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    padding-left: 40px;
+}
+
+select {
+    width: auto;
+}
+/* 
+button.job {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 400px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button.job:hover {
+    background-color: #3e8e41;
+}
+
+.left h1 {
+    line-height: 4rem;
+}  */
+/* 
+@media (min-width: 768px) {
+button.job {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 20px;
+        transition: background-color 0.3s ease-in-out;
+    }
+} */
+
+.hamburger {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    transition: all 0.25s;
+    position: relative;
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 2px;
+    background: black;
+    transform: rotate(0);
+    transition: all 0.5s;
+}
+
+.hamburger-middle {
+    transform: translateY(7px);
+}
+
+.hamburger-bottom {
+    transform: translateY(14px);
+}
+
+.open {
+    transform: rotate(90deg);
+    transform: translateY(0px);
+}
+
+.open .hamburger-top {
+    transform: rotate(45deg) translateY(6px) translate(6px);
+}
+
+.open .hamburger-middle {
+    display: none;
+}
+
+.open .hamburger-bottom {
+    transform: rotate(-45deg) translateY(6px) translate(-6px);
+}

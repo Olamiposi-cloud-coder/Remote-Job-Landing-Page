@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Remote Jobs Landing Page</title>
+        <script src="https://kit.fontawesome.com/1894891b99.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="relative container mx-auto p-3">
+            <!-- flex container -->
+            <div class="flex items-center justify-between">
+                <!-- logo -->
+                <div class="pt-2 gap-2 flex">
+                    <img src="images/Combined-Shape.png" alt="logo">
+                    <img src="images/JOBSON.svg" alt="logo">
+                </div>
+                <!-- Menu items -->
+                <div class="hidden md:flex space-x-6">
+                    <a href="#" class="hover:text-navHover">Home</a>
+                    <a href="#" class="hover:text-navHover">Job listings</a>
+                    <a href="#" class="hover:text-navHover">About Us</a>
+                    <a href="#" class="hover:text-navHover">How it works</a>
+                    <a href="#" class="hover:text-navHover">Categories</a>
+                </div>
+
+                <!-- button -->
+                <a href="#" class="hidden md:block p-3 px-6 pt-2 text-navColor bg-white border-solid border border-black rounded-md baseline hover:bg-dark hover:text-white">Get Started</a>
+
+                <!-- Hamburger Icon -->
+                <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
+            </div> 
+
+            <!-- Hamburger Menu -->
+            <div class="md:hidden">
+                <div id="menu" class="absolute md:flex flex-col items-start px-10 hidden self-end py-8 mt-5 space-y-6 font-bold bg-footerWhite sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                    <a href="#" class="hover:text-navHover hover:underline">Home</a>
+                    <a href="#" class="hover:text-navHover hover:underline">Job listings</a>
+                    <a href="#" class="hover:text-navHover hover:underline">About Us</a>
+                    <a href="#" class="hover:text-navHover hover:underline">How it works</a>
+                    <a href="#" class="hover:text-navHover hover:underline">Categories</a>
+                    <a href="#"
+                        class=" md:block p-3 px-6 pt-2 text-navColor bg-white border-solid border border-black rounded-md baseline hover:bg-dark hover:text-white">Get
+                        Started</a>
+
+                </div>
+                  
+            </div>
+        </nav>
+
+        <!-- Hero section -->
+        <section class="dark:bg-gray-900">
+            <!-- flex container -->
+            <div class="flex">
+                <!-- left item -->
+                <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400 bg-black max-w-screen-md md:px-10 py-16 px-2 md:max-w-2xl">
+                    <h1 class="max-w-screen-md mt-10 text-2xl font-semibold md:text-4xl md:text-left text-white mx-12 pt-1 pb-6 leading-10 md:leading-10">Finding Remote Jobs Has Never Been This Easy</h1>
+                    <p class="max-w-screen-md  text-white md:text-left mx-12 pb-10">Getting remote jobs has become faster and seamless with Jobson, we are aimed at providing freelancers and remote workers with fast and reliable jobs.</p>
+                    <div class="bg-white max-w-md mx-12 mt-8 p-8 rounded-lg">
+                    <form>
+                        <h1 class="text-black text-2xl mb-3 font-semibold">Search Job</h1>
+                        <div class="flex">
+                    <input type="search" name="job" placeholder="Job Description">
+                    <select name="location">
+                        <option value="">Select location</option>
+                        <option value="New York">New York</option>
+                        <option value="Los Angeles">Los Angeles</option>
+                        <option value="Chicago">Chicago</option>
+                        <!-- Add more locations as per your requirement -->
+                    </select>
+                    </div>
+                    </form>
+                    <button type="submit" class="md:px-36 bg-bgColor text-footerWhite font-semibold px-32 py-2 rounded-md hover:bg-btnHover">Search Job </button>
+                    </div>
+                </div>
+
+                <!-- Image -->
+                <div>
+                   <img class="w-full hidden md:flex" src="./images/JOB1.png" alt="showcase-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Showcase section -->
+        <section class="showcase mx-auto">
+            <div class="py-8 px-4 mx-auto max-w-screen-xl">
+            <div class="mb-8 max-w-screen-md lg:mb-16">
+                <h1 class="max-w-md text-3xl md:text-4xl md:text-left text-black font-bold mb-5">Available Job listings</h1>
+                <p class="max-w-sm text-navHover md:text-left">Check out the available Job listings for the week and apply right now. </p>
+            </div>
+            
+            <div class="container flex flex-col gap-4 items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row">
+                <div class="border-solid border-2 border-navHover py-6 px-5 rounded-lg">
+                    <div class="inline-flex justify-between items-center">
+                     <div class="mr-10">
+                       <h3 class="text-black font-semibold">UI/UX Designer</h3>
+                       <p class="text-gray-300">Slack</p>
+                    </div>
+                    <div class="flex items-center">
+                     <img src="./images/Group.svg" class="mr-2 pb-5" alt=""> <span class="pb-5 font-bold">slack</span>
+                    </div>
+                   </div>
+
+                   <div class="flex text-gray-300 justify-between items-center gap-3 mt-4">
+                    <div class="flex items-center gap-2">
+                        <img src="./images/Combi-Shape.svg" alt="">
+                        <p>Remote</p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <img src="./images/3-User.svg" alt="">
+                        <p>11+ Applicants</p>
+                    </div>
+                   </div>
+
+                   <button type="submit" class="bg-bgColor text-footerWhite py-2 px-20 rounded-lg mt-4">Apply Here</button>
+                </div>
+                <div class="border-solid border-2 border-navHover py-6 px-5 rounded-lg">
+                    <div class="inline-flex justify-between items-center">
+                     <div class="mr-14">
+                       <h3 class="text-black font-semibold">Graphics Designer</h3>
+                       <p class="text-gray-300">Dell Inspiron</p>
+                    </div>
+                    <div class="flex items-center">
+                     <img src="./images/Vector (5).svg" class="mr-2 pb-5" alt="">
+                    </div>
+                   </div>
+
+                   <div class="flex text-gray-300 justify-between items-center gap-3 mt-4">
+                    <div class="flex items-center gap-2">
+                        <img src="./images/Combi-Shape.svg" alt="">
+                        <p>Remote</p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <img src="./images/3-User.svg" alt="">
+                        <p>11+ Applicants</p>
+                    </div>
+                   </div>
+
+                   <button type="submit" class="bg-bgColor text-footerWhite py-2 px-20 rounded-lg mt-4">Apply Here</button>
+                </div>
+                <div class="border-solid border-2 border-navHover py-6 px-5 rounded-lg">
+                    <div class="inline-flex justify-between items-center">
+                     <div class="mr-14">
+                       <h3 class="text-black font-semibold">Graphics Designer</h3>
+                       <p class="text-gray-300">Dell Inspiron</p>
+                    </div>
+                    <div class="flex items-center">
+                     <img src="./images/Vector (5).svg" class="mr-2 pb-5" alt=""> 
+                    </div>
+                   </div>
+
+                   <div class="flex text-gray-300 justify-between items-center gap-3 mt-4">
+                    <div class="flex items-center gap-2">
+                        <img src="./images/Combi-Shape.svg" alt="">
+                        <p>Remote</p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <img src="./images/3-User.svg" alt="">
+                        <p>11+ Applicants</p>
+                    </div>
+                   </div>
+
+                   <button type="submit" class="bg-bgColor text-footerWhite py-2 px-20 rounded-lg mt-4">Apply Here</button>
+                </div>
+                <div class="border-solid border-2 border-navHover py-6 px-5 rounded-lg">
+                    <div class="inline-flex justify-between items-center">
+                     <div class="mr-10">
+                       <h3 class="text-black font-semibold">Backend Developer</h3>
+                       <p class="text-gray-300">Discord</p>
+                    </div>
+                    <div class="flex items-center">
+                     <img src="./images/Vector (5).svg" class="mr-2 pb-5" alt=""> 
+                    </div>
+                   </div>
+
+                   <div class="flex text-gray-300 justify-between items-center gap-3 mt-4">
+                    <div class="flex items-center gap-2">
+                        <img src="./images/Combi-Shape.svg" alt="">
+                        <span>Remote</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <img src="./images/3-User.svg" alt="">
+                        <p>11+ Applicants</p>
+                    </div>
+                   </div>
+
+                   <button type="submit" class="bg-bgColor text-footerWhite py-2 px-20 rounded-lg mt-4">Apply Here</button>
+                </div>
+            </div>
+
+            <button class="py-3 px-5 mx-auto justify-center bg-bgColor text-white block my-8 rounded-full">View all listings</button>
+            </div>
+        </section>
+
+        <section class="bg-white-50 dark:bg-white-800">
+            <div class="py-8 px-4 mx-auto max-w-screen-xl">
+                <div class="mb-8 max-w-screen-md lg:mb-16">
+                    <h2 class="mb-4 text-4xl font-bold text-black dark:text-white">Our Trusted Partners</h2>
+                    <p class="max-w-sm text-gray-500 sm:text-lg dark:text-gray-400">Take a look at some of our prestigious partners and get hired today.</p>
+                </div>
+                <div class="grid grid-cols-2 gap-x-20 sm:gap-12 md:grid-cols-4 max-w-screen-2xl px-20 mb-10 mx-auto">
+                    <a href="#" class="flex justify-center items-center">
+                        <img src="./images/Dangote Cement - png.png" alt="Dangote-logo">
+                    </a>
+                    <a href="#" class="flex justify-center items-center">
+                        <img src="./images/Group.png" alt="Honeywell-logo">
+                    </a>
+                    <a href="#" class="flex justify-center items-center">
+                        <img src="./images/Vector.png" alt="Barclays-logo">
+                    </a>
+                    <a href="#" class="flex justify-center items-center">
+                        <img src="./images/Vector (1).png" alt="Nokia-logo">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="dark:bg-gray-900">
+            <div class="flex">
+                <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400 bg-black max-w-screen-sm py-20 px-10">
+                    <h3 class="mb-4 text-3xl font-semibold text-white">ABOUT US</h3>
+                    <h2 class="mb-2 text-3xl font-bold text-white dark:text-white leading-relaxed">Looking to work remotely? Jobson is the best platform for you.</h2>
+                    <p class="mb-16 mt-7">Jobson is a platform dedicated towards providing freelancers and remote workers an avenue to gain more clients for different job descriptions.</p>
+
+                    <div class="justify-center grid grid-cols-3 gap-8 sm:gap-6 sm:grid-cols-3">
+                        <div>
+                        <h2 class="mb-6 text-md font-bold text-white uppercase dark:text-white">100%</h2>
+                        <h3 class="mb-4 text-sm text-white font-bold">Client</h3>
+                        <h3 class="mb-4 text-md text-white font-bold">Satisfaction</h3>
+                        </div>
+                        <div>
+                        <h2 class="mb-6 text-md font-bold text-white uppercase dark:text-white">70+</h2>
+                        <h3 class="mb-4 text-sm text-white font-bold">Remote</h3>
+                        <h3 class="mb-4 text-md text-white font-bold">workers</h3>
+                        </div>
+                        <div>
+                        <h2 class="mb-6 text-md font-bold text-white uppercase dark:text-white">100+</h2>
+                        <h3 class="mb-4 text-sm text-white font-bold">Major</h3>
+                        <h3 class="mb-4 text-md text-white font-bold">companies</h3>
+                        </div>
+                    </div>
+                </div>
+                <div> 
+                    <img class="w-full hidden md:flex" src="./images/JOB4.png" alt="laptop-lady">
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-gray-50 dark:bg-gray-800">
+            <div class="py-8 px-4 mx-auto max-w-screen-xl">
+                <div class="mb-8 max-w-screen-md lg:mb-16">
+                    <h2 class="text-4xl text-black font-bold mb-4">How it works</h2>
+                    <p class="max-w-screen-sm text-gray-500 sm:text-lg dark:text-gray-400">Here's how Jobson works, Follow the necessary steps and begin your career working remotely</p>
+                </div>
+
+                <div class="container flex flex-col gap-4 items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row">
+                    <div class="border-solid border-2 border-navHover p-8 rounded-lg">
+                        <div class="flex justify-center items-center mb-4">
+                           <img src="./images/Profile.svg" class="justify-center items-center" alt="">
+                        </div>
+                        <h1 class="mb-4 text-2xl text-black font-semibold text-center">Create Account</h1>
+                        <p class="text-gray-500 text-center">Register with us using a valid email address and phone number.</p>
+                    </div>
+                    <div class="border-solid border-2 border-navHover p-8 rounded-lg">
+                        <div class="flex justify-center items-center mb-4">
+                        <img src="./images/Document.svg" class="justify-center items-center" alt="">
+                        </div>
+                        <h1 class="mb-4 text-2xl text-black font-semibold text-center">Choose your specialization</h1>
+                        <p class="text-gray-500 text-center">Select your area of specialization, and search for available jobs.</p>
+                    </div>
+                    <div class="border-solid border-2 border-navHover p-8 rounded-lg">
+                        <div class="flex justify-center items-center mb-4">
+                        <img src="./images/Combined-Shape.svg" class="justify-center items-center" alt="">
+                        </div>
+                        <h1 class="mb-4 text-2xl text-black font-semibold text-center">Apply for Jobs</h1>
+                        <p class="text-gray-500 text-center">Apply for Jobs based on your area of specialization seamlessly.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-white">
+            <div class="py-8 px-8 mx-auto max-w-screen-xl">
+                <div class="mb-8 max-w-screen-md mx-auto lg:mb-16">
+                    <h2 class="text-3xl text-black font-semibold">Browse Job based on category.</h2>
+                    <p class="text-gray-500">Check out the available Job listings for the week and apply right now.</p>
+                </div>
+
+                <a href="#" class="inline-flex justify-center items-start py-3 px-12 mr-3 text-base font-medium text-center text-gray-400 rounded-lg border-solid border-2 bg-white hover:bg-slate-200 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">Location</a>
+                <a href="#" class="inline-flex justify-center items-center py-3 px-12 mr-3 text-base font-medium text-center text-white rounded-lg  bg-bgColor hover:bg-green-700 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">Generate</a>
+
+                <div class="mt-8 grid grid-cols-2 gap-x-20 gap-y-10 sm:gap-12 md:grid-cols-4 max-w-screen-lg mx-auto mb-10">
+                    <a href="#"
+                        class="inline-flex justify-center items-center py-3 px-5 mr-3 text-base font-semibold text-center text-black rounded-full border-solid border-2 bg-white hover:bg-footerWhite focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">Design</a>
+                    <a href="#"
+                        class="inline-flex justify-center items-center py-3 px-5 mr-3 text-base font-semibold text-center text-black rounded-full border-solid border-2 bg-white hover:bg-footerWhite focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">IT & Software</a>
+                    <a href="#"
+                        class="inline-flex justify-center items-center py-3 px-5 mr-3 text-base font-semibold text-center text-black rounded-full border-solid border-2 bg-white hover:bg-footerWhite focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">Development</a>
+                    <a href="#"
+                        class="inline-flex justify-center items-center py-3 px-5 mr-3 text-base font-semibold text-center text-black rounded-full border-solid border-2 bg-white hover:bg-footerWhite focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">Marketing</a>
+                    <a href="#"
+                        class="inline-flex justify-center items-center py-3 px-5 mr-3 text-base font-semibold text-center text-black rounded-full border-solid border-2 bg-white hover:bg-footerWhite focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">Management</a>
+                    <a href="#"
+                        class="inline-flex justify-center items-center py-3 px-5 mr-3 text-base font-semibold text-center text-black rounded-full border-solid border-2 bg-white hover:bg-footerWhite focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">Finance & Accounting</a>
+                    <a href="#"
+                        class="inline-flex justify-center items-center py-3 px-5 mr-3 text-base font-semibold text-center text-black rounded-full border-solid border-2 bg-white hover:bg-footerWhite focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">Finance & Accounting</a>
+                    <a href="#"
+                        class="inline-flex justify-center items-center py-3 px-5 mr-3 text-base font-semibold text-center text-black rounded-full border-solid border-2 bg-white hover:bg-footerWhite focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">Design</a>
+                </div>
+
+                <div class="container flex flex-col gap-4 items-center px-0 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row">
+                    <div class="border-solid border-2 border-navHover py-6 px-5 rounded-lg">
+                        <div class="inline-flex justify-between items-center">
+                            <div class="mr-10">
+                                <h3 class="text-black font-semibold">UI/UX Designer</h3>
+                                <p class="text-gray-300">Slack</p>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="./images/Group.svg" class="mr-2 pb-5" alt=""> <span class="pb-5 font-bold">slack</span>
+                            </div>
+                        </div>
+                
+                        <div class="flex text-gray-300 justify-between items-center gap-3 mt-4">
+                            <div class="flex items-center gap-2">
+                                <img src="./images/Combi-Shape.svg" alt="">
+                                <p>Remote</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="./images/3-User.svg" alt="">
+                                <p>11+ Applicants</p>
+                            </div>
+                        </div>
+                
+                        <button type="submit" class="bg-bgColor text-footerWhite py-2 px-20 rounded-lg mt-4">Apply Here</button>
+                    </div>
+                    <div class="border-solid border-2 border-navHover py-6 px-5 rounded-lg">
+                        <div class="inline-flex justify-between items-center">
+                            <div class="mr-14">
+                                <h3 class="text-black font-semibold">Graphics Designer</h3>
+                                <p class="text-gray-300">Dell Inspiron</p>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="./images/Vector (5).svg" class="mr-2 pb-5" alt="">
+                            </div>
+                        </div>
+                
+                        <div class="flex text-gray-300 justify-between items-center gap-3 mt-4">
+                            <div class="flex items-center gap-2">
+                                <img src="./images/Combi-Shape.svg" alt="">
+                                <p>Remote</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="./images/3-User.svg" alt="">
+                                <p>11+ Applicants</p>
+                            </div>
+                        </div>
+                
+                        <button type="submit" class="bg-bgColor text-footerWhite py-2 px-20 rounded-lg mt-4">Apply Here</button>
+                    </div>
+                    <div class="border-solid border-2 border-navHover py-6 px-5 rounded-lg">
+                        <div class="inline-flex justify-between items-center">
+                            <div class="mr-14">
+                                <h3 class="text-black font-semibold">Graphics Designer</h3>
+                                <p class="text-gray-300">Dell Inspiron</p>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="./images/Vector (5).svg" class="mr-2 pb-5" alt="">
+                            </div>
+                        </div>
+                
+                        <div class="flex text-gray-300 justify-between items-center gap-3 mt-4">
+                            <div class="flex items-center gap-2">
+                                <img src="./images/Combi-Shape.svg" alt="">
+                                <p>Remote</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="./images/3-User.svg" alt="">
+                                <p>11+ Applicants</p>
+                            </div>
+                        </div>
+                
+                        <button type="submit" class="bg-bgColor text-footerWhite py-2 px-20 rounded-lg mt-4">Apply Here</button>
+                    </div>
+                    <div class="border-solid border-2 border-navHover py-6 px-5 rounded-lg">
+                        <div class="inline-flex justify-between items-center">
+                            <div class="mr-10">
+                                <h3 class="text-black font-semibold">Backend Developer</h3>
+                                <p class="text-gray-300">Discord</p>
+                            </div>
+                            <div class="flex items-center">
+                                <img src="./images/Vector (5).svg" class="mr-2 pb-5" alt="">
+                            </div>
+                        </div>
+                
+                        <div class="flex text-gray-300 justify-between items-center gap-3 mt-4">
+                            <div class="flex items-center gap-2">
+                                <img src="./images/Combi-Shape.svg" alt="">
+                                <span>Remote</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="./images/3-User.svg" alt="">
+                                <p>11+ Applicants</p>
+                            </div>
+                        </div>
+                
+                        <button type="submit" class="bg-bgColor text-footerWhite py-2 px-20 rounded-lg mt-4">Apply Here</button>
+                    </div>
+                </div>
+                <button class="py-3 px-5 mx-auto justify-center bg-bgColor text-white block my-8 rounded-full">View all listings</button>
+            </div>
+            </div>
+        </section>
+
+        <section class="dark:bg-gray-900">
+            <div class="flex">
+                <div>
+                    <img class="w-full hidden md:flex" src="./images/JOB8.png" alt="Guy-on-glasses">
+                </div>
+                <div class="font-light bg-black text-white sm:text-lg dark:text-white py-12 px-10 max-w-screen-sm">
+                    <h2 class="my-4 text-3xl font-semibold text-white dark:text-white">Customer Review</h2>
+                    <p class="mb-4">Take a look at our Top freelancer and clients reviews, our reliability knows no bound.</p>
+
+                    <div class="bg-white mb-9 rounded-lg mx-auto p-6">
+                        <h2 class="text-3xl font-semibold text-black">Chrisitian</h2>
+                        <p class="text-text">The very best of them all, i I got 3 remote jobs within the space of 2 weeks due to the reliability of Jobson</p>
+
+                        <div class="flex mt-5 ">
+                            <img class="px-2" src="./images/Star 3.png" alt="Star">
+                            <img class="px-2" src="./images/Star 3.png" alt="Star">
+                            <img class="px-2" src="./images/Star 3.png" alt="Star">
+                            <img class="px-2" src="./images/Star 3.png" alt="Star">
+                            <img class="px-2" src="./images/Star 3.png" alt="Star">
+                        </div>
+                    </div>
+
+                    <div class="flex gap-6 justify-center my-auto cursor-pointer">
+                        <img src="./images/Group 3.png" alt="arrow-left">
+                        <img src="./images/Group 2.png" alt="arrow-right">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="">
+            <div class="mx-auto p-8 bg-bgColor sm:p-6 dark:bg-bgColor">
+               <div class="md:flex md:justify-evenly">
+                <div class="mb-6 md:mb-0 md:mr-12">
+                   <a href="#" class="flex items-center">
+                         <img src="images/Comb.png" class="mr-3 h-8" alt="logo">
+                        <span class="self-center whitespace-nowrap"><img src="images/JOBSON (1).svg"  alt="logo"></span> 
+                   </a> 
+                    <p class="max-w-screen-md text-footerWhite mt-5">Getting remote jobs has become faster and seamless with Jobson, we are aimed at providing
+                        freelancers and remote workers with fast and reliable jobs. </p>
+                </div>
+                <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                    <div>
+                        <h2 class="mb-6 text-md font-bold text-footerWhite dark:text-footerWhite">Menu</h2>
+                        <ul class="text-footerWhite dark:text-footerWhite">
+                            <li class="mb-4"><a href="#" class="hover:underline">Home</a></li>
+                            <li class="mb-4"><a href="#" class="hover:underline">Job listings</a></li>
+                            <li class="mb-4"><a href="#" class="hover:underline">About us</a></li>
+                            <li class="mb-4"><a href="#" class="hover:underline">How it works</a></li>
+                            <li><a href="#" class="hover:underline">Categories</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-md font-bold text-footerWhite dark:text-footerWhite">Social Media</h2>
+                        <ul class="text-footerWhite dark:text-footerWhite">
+                            <li class="mb-4"><a href="#" class="hover:underline inline-flex">Facebook <img src="./images/Vector.svg" alt="Facebook-logo" class="ml-3"></a></li>
+                            <li class="mb-4"><a href="#" class="hover:underline inline-flex">Twitter <img src="./images/Vector (1).svg" alt="Twitter-logo" class="ml-8"></a></li>
+                            <li class="mb-4"><a href="#" class="hover:underline inline-flex">Instagram <img src="./images/Vector (2).svg" alt="Instagram-logo" class="ml-3"></a></li>
+                            <li class="mb-4"><a href="#" class="hover:underline inline-flex">Linkedin <img src="./images/Vector (3).svg" alt="Linkedin-logo" class="ml-5"></a></li>
+                            <li class="mb-4"><a href="#" class="hover:underline inline-flex">Discord <img src="./images/Vector (4).svg" alt="Discord-logo" class="ml-7 "></a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-md font-bold text-footerWhite dark:text-footerWhite">Newsletter</h2>
+                        <p class="text-footerWhite">Subscribe to our Newsletter and get daily updates from us.</p>
+                       
+                        <form>
+                            <label for="search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+                            <div class="relative mt-8">
+                                <input type="search" id="search"
+                                    class="block w-full p-4 pl-4 text-sm text-white border border-white rounded-lg bg-bgColor dark:placeholder-white"
+                                    placeholder="Email address" required>
+                                <button type="submit"
+                                    class="text-black absolute right-2.5 bottom-2.5 bg-white hover:bg-indigo-50 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-4 py-2">Submit</button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+               </div>     
+            </div>
+
+            <div class="bg-black p-4">
+                <div class="flex">
+                    <p class="text-footerWhite font-semibold"> <span class="text-white text-2xl mr-6"> &copy;</span>Copyright,2023 <span class="ml-4 font-bold">JOBSON TECH</span></p>
+                </div>
+            </div>
+        </footer>
+        <script src="./script.js"></script>
+    </body>
+
+</html>
