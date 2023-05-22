@@ -29,7 +29,7 @@
                 </div>
 
                 <!-- button -->
-                <a href="#" class="hidden md:block p-3 px-6 pt-2 text-navColor bg-white border-solid border border-black rounded-md baseline hover:bg-dark hover:text-white">Get Started</a>
+                <a href="./create.html" class="hidden md:block p-3 px-6 pt-2 text-navColor bg-white border-solid border border-black rounded-md baseline hover:bg-dark hover:text-white">Get Started</a>
 
                 <!-- Hamburger Icon -->
                 <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
@@ -47,7 +47,7 @@
                     <a href="#" class="hover:text-navHover hover:underline">About Us</a>
                     <a href="#" class="hover:text-navHover hover:underline">How it works</a>
                     <a href="#" class="hover:text-navHover hover:underline">Categories</a>
-                    <a href="#"
+                    <a href="./create.html"
                         class=" md:block p-3 px-6 pt-2 text-navColor bg-white border-solid border border-black rounded-md baseline hover:bg-dark hover:text-white">Get
                         Started</a>
 
@@ -59,34 +59,42 @@
         <!-- Hero section -->
         <section class="dark:bg-gray-900">
             <!-- flex container -->
-            <div class="flex">
+            <div class="grid grid-cols-1 sm:grid-cols-2">
                 <!-- left item -->
-                <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400 bg-black max-w-screen-md md:px-10 py-16 px-2 md:max-w-2xl">
-                    <h1 class="max-w-screen-md mt-10 text-2xl font-semibold md:text-4xl md:text-left text-white mx-12 pt-1 pb-6 leading-10 md:leading-10">Finding Remote Jobs Has Never Been This Easy</h1>
-                    <p class="max-w-screen-md  text-white md:text-left mx-12 pb-10">Getting remote jobs has become faster and seamless with Jobson, we are aimed at providing freelancers and remote workers with fast and reliable jobs.</p>
-                    <div class="bg-white max-w-md mx-12 mt-8 p-8 rounded-lg">
-                    <form>
-                        <h1 class="text-black text-2xl mb-3 font-semibold">Search Job</h1>
-                        <div class="flex">
-                    <input type="search" name="job" placeholder="Job Description">
-                    <select name="location">
-                        <option value="">Select location</option>
-                        <option value="New York">New York</option>
-                        <option value="Los Angeles">Los Angeles</option>
-                        <option value="Chicago">Chicago</option>
-                        <!-- Add more locations as per your requirement -->
-                    </select>
-                    </div>
-                    </form>
-                    <button type="submit" class="md:px-36 bg-bgColor text-footerWhite font-semibold px-32 py-2 rounded-md hover:bg-btnHover">Search Job </button>
+                <div
+                    class="font-light text-gray-500 sm:text-lg dark:text-gray-400 bg-black max-w-screen-sm mx-auto py-4 md:max-w-2xl px-5 sm:px-6 md:px-10">
+                    <h1
+                        class="max-w-screen-sm md:max-w-screen-md mt-10 text-2xl font-semibold md:text-4xl md:text-left text-white md:mx-12 mx-6 pt-1 pb-6 leading-10 md:leading-10">
+                        Finding Remote Jobs Has Never Been This Easy</h1>
+                    <p class="max-w-screen-md text-white md:text-left mx-12 pb-10">Getting remote jobs has become faster and
+                        seamless with Jobson, we are aimed at providing freelancers and remote workers with fast and reliable jobs.
+                    </p>
+                    <div class="bg-white max-w-sm mx-12 mt-8 p-4 sm:p-6 mb-14 rounded-lg">
+                        <form>
+                            <h1 class="text-black text-2xl mb-3 font-semibold">Search Job</h1>
+                            <div class="flex">
+                                <input type="search" name="job" placeholder="Job Description" class="text">
+                                <select name="location">
+                                    <option value="">Select location</option>
+                                    <option value="New York">New York</option>
+                                    <option value="Los Angeles">Los Angeles</option>
+                                    <option value="Chicago">Chicago</option>
+                                    <!-- Add more locations as per your requirement -->
+                                </select>
+                            </div>
+                            <button type="submit"
+                                class="md:px-36 bg-bgColor text-footerWhite font-semibold px-32 py-2 rounded-md hover:bg-btnHover mt-4">Search
+                                Job</button>
+                        </form>
                     </div>
                 </div>
-
+            
                 <!-- Image -->
-                <div>
-                   <img class="w-full hidden md:flex" src="./images/JOB1.png" alt="showcase-img">
+                <div class="hidden md:block">
+                    <img class="w-full" src="./images/JOB1.png" alt="showcase-img">
                 </div>
             </div>
+
         </section>
 
         <!-- Showcase section -->
