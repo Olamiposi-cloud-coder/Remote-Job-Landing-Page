@@ -1629,6 +1629,11 @@ button.job {
     padding-right: 1.5rem;
   }
 
+  .sm\:px-2{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
   .sm\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
@@ -1671,6 +1676,10 @@ button.job {
 
   .md\:max-w-screen-md{
     max-width: 768px;
+  }
+
+  .md\:max-w-xl{
+    max-width: 36rem;
   }
 
   .md\:grid-cols-4{
